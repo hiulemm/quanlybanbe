@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.suaBanBe"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUA THONG TIN BAN BE"
+        android:gravity="center"
+        android:background="#5F7566"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"/>
+    <View
+        android:layout_marginVertical="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/material_dynamic_tertiary60"
+/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:background="@drawable/hl"/>
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:id="@+id/btnavt"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".4"
+            android:backgroundTint="#5D7167"
+            android:text="Chon" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten moi :"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        />
+    <EditText
+        android:id="@+id/edtbietdanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap biet danh moi :"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnngaysinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="Chon ngay sinh"
+            android:backgroundTint="#536C60"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:id="@+id/tvngaysinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <EditText
+
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="facebook"
+        android:id="@+id/edtfb"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="instagram"
+        android:id="@+id/edtig"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="zalo"
+        android:id="@+id/edtzalo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="email"
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <LinearLayout
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:orientation="horizontal">
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnSua"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/stringnee_background_color"
+            android:src="@drawable/sua"
+
+       />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnTroLai"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/stringnee_background_color"
+            android:src="@drawable/trolai"
+            />
+    </LinearLayout>
+
+</LinearLayout>

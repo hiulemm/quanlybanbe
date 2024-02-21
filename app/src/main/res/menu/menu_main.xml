@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:title="Thong bao"
+        android:id="@+id/itemTB"
+        android:icon="@drawable/thongbao"/>
+
+    <item android:id="@+id/itemBB"
+        android:title="Ban be"
+        android:icon="@drawable/banbe"/>
+    <item android:title="Tai khoan"
+        android:id="@+id/itemTK"
+        android:icon="@drawable/taikhoan"/>
+</menu>
